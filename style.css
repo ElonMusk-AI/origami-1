@@ -1,0 +1,45 @@
+h1{
+    color: rgb(192, 105, 105);
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 50px;
+    padding: 20px;
+}
+.header{
+    background-color: rgb(9, 9, 39);
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    
+    padding: 20px;
+}
+.menu *{
+    border: 5px solid;
+    border-radius: 100;
+    border-color: white;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.links{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: royalblue;
+}
+.item *{
+    border: 5px solid;
+    border-radius: 100px; 
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
